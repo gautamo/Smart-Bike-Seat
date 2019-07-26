@@ -4,9 +4,9 @@ People value safety that is non-intrusive and reliable. As bikers, we wanted to 
 
 Our device reads Gyroscope and Accelerometer data from the LSMD6S3 in conjunction to using the Sparkfun ESP8266 Thing Dev to send data and alerts to a cloud server interfaced with Microsoft Azure. Users of the Azure Web App will be notified when a biker with our device is in danger. 
 
-See [code](hw/cs190_final_project_iot_hub/app/app.ino).
+Click here to see the [code](hw/cs190_final_project_iot_hub/app/app.ino).
 
-See video [demonstration](https://drive.google.com/file/d/12vRQmn5qfWZD26pP8ygeaJSql9U4rspO/view?usp=sharing).
+Click here to see a [video demonstration](https://drive.google.com/file/d/12vRQmn5qfWZD26pP8ygeaJSql9U4rspO/view?usp=sharing).
 
 ![Gautam and JJ with the Smart Bike Seat](Smart_Bike_Seat_Team.png)
 ![More project views](Smart_Bike_Seat_Views.png)
