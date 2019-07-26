@@ -1,11 +1,11 @@
-# Smart-Bike-Seat
+# Smart Bike Seat
 
 People value safety that is non-intrusive and reliable. As bikers, we wanted to create a device that caters to the user’s safety, especially in potentially dangerous situations. The Smart Bike Seat provides statistics based on a user’s biking time, adds functional brake lights minimizing biking danger in the dark, and can send an immediate distress signal should the user crash and is knocked out. 
 
 Our device reads Gyroscope and Accelerometer data from the LSMD6S3 in conjunction to using the Sparkfun ESP8266 Thing Dev to send data and alerts to a cloud server interfaced with Microsoft Azure. Users of the Azure Web App will be notified when a biker with our device is in danger. 
 
-![Gautam and JJ with the Smart Bike Seat]()
-![More project views]()
+![Gautam and JJ with the Smart Bike Seat](Smart_Bike_Seat_Team)
+![More project views](Smart_Bike_Seat_Views)
 
 The Accelerometer returns readings that measure the rate of acceleration in the X, Y, and Z axis. The Gyroscope returns readings that measure the velocity in the X, Y, and Z axis. We used the accelerometer to notice when deceleration occurs to turn on the brake light. The Gyroscope readings allowed us to measure the speed at which the bike has tilted. A drastic tilt constitutes a crash, in which a distress signal is sent via the user’s hotspot on their phone and the brake lights are turned on indefinitely to attract attention. 
 
