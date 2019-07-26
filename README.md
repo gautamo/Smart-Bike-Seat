@@ -7,7 +7,7 @@ Our device reads Gyroscope and Accelerometer data from the LSMD6S3 in conjunctio
 ![Gautam and JJ with the Smart Bike Seat](Smart_Bike_Seat_Team.png)
 ![More project views](Smart_Bike_Seat_Views.png)
 
-Link to main code: [Code]()
+Link to main code: [Code](hw/cs190_final_project_iot_hub/app/app.ino)
 
 The Accelerometer returns readings that measure the rate of acceleration in the X, Y, and Z axis. The Gyroscope returns readings that measure the velocity in the X, Y, and Z axis. We used the accelerometer to notice when deceleration occurs to turn on the brake light. The Gyroscope readings allowed us to measure the speed at which the bike has tilted. A drastic tilt constitutes a crash, in which a distress signal is sent via the user’s hotspot on their phone and the brake lights are turned on indefinitely to attract attention. 
 
